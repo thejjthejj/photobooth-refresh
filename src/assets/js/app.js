@@ -26,7 +26,6 @@
             console.log("torch disabled");
 
             this.track.applyConstraints({
-              location.reload();
                 advanced: [{torch: false}]
             });
         },
